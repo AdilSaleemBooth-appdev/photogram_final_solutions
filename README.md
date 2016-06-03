@@ -1,4 +1,15 @@
-# Photogram / Auth
+# Photogram Final Solutions
+
+## Solutions Setup
+
+ 1. Clone
+ 1. `bundle`
+ 1. `rake db:migrate`
+ 1. `rake db:seed`
+ 1. `rails server`
+ 1. Sign in as `alice@`, `bob@`, `carol@`, `dave@`, or `ellen@example.com` (password: `12341234`).
+
+===
 
 1. Add [starter_generators](https://gist.github.com/rbetina/80d3cf2cf82666ed1c0f) and [Devise](https://gist.github.com/rbetina/9ef4a9ffa4604df74bb5) to the Gemfile.
 1. `bundle install`
@@ -138,5 +149,3 @@
 
 tests:
  - index shows photos, comments, likes, oxford comma, time ago in words
-
-

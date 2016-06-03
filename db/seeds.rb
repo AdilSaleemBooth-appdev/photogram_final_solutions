@@ -1,7 +1,7 @@
 usernames = ["alice", "bob", "carol", "dave", "ellen"]
 
 usernames.each do |username|
-  user = User.create
+  user = User.new
   user.username = username
   user.email = "#{username}@example.com"
   user.password = "12341234"
