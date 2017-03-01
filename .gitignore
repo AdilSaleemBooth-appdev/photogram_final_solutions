@@ -15,3 +15,11 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore environment variables
+#   Create a file in the root folder called
+#     .env.development and place environment variables inside
+#     For example,
+#       AWS_ACCESS_KEY_ID=some_access_key_id
+#       AWS_SECRET_ACCESS_KEY=some_secret_access_key
+/.env*
