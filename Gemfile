@@ -6,7 +6,7 @@ gem 'devise'
 gem 'faker'
 
 gem 'carrierwave'
-gem 'fog'
+# gem 'fog'
 gem 'mini_magick'
 gem 'dotenv-rails', groups: [:development, :test]
 
